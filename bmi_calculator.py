@@ -11,7 +11,7 @@ def classify_bmi(bmi_value) :
           return "Underweight"
      
      elif 18.5 <= bmi_value < 25 :
-          return "Overweight"
+          return "Healthy"
      
      elif 25 <= bmi_value < 30 :
           return "Overweight"
